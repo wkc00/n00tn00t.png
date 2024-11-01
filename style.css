@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+/*nav bar*/
+a{
+    text-decoration: none;
+    color: #777;
+    padding: .125%;
+}
+.top-nav a:hover{
+    font-size: 100%;
+    color: #000000;
+    background-color: #727272dc;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    font-size: 20px;
+}
+
+div{
+    text-align: center;
+}
+.Home{
+    background-image: url(KLNightView.jpg);
+    background-size: 100%;
+    background-position: 100%;
+    width: 100%;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+}
+
+.n00t{
+    padding-top: 15%;
+    color: #777;
+    font-size: 100%;
+    font-size: 150%;
+}
+
+
+/*content*/
+.about{
+    padding-top: 64px;
+    min-height: 550px;
+    word-wrap: break-word;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.Portfolio{
+    padding-top: 64px;
+    min-height: 550px;
+}
+.container{
+    column-count: 4;
+    max-width: 2500px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.pics{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    padding: 5px;
+
+}
+.pics:hover {
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+}
+.Contact{
+    margin-top: 100px;
+}
+/*Footer*/
+footer{
+    margin-top: 20%;
+    padding: 1%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: black;
+}
+i:hover{
+    color: #949494;
+}
